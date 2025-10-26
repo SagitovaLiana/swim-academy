@@ -10,6 +10,7 @@ const Header = () => {
     const newLang = language === "ru" ? "en" : "ru";
     switchLanguage(newLang);
   };
+
   return (
     <header className="header">
       <div className="container header__container">

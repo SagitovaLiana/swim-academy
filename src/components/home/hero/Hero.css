@@ -1,0 +1,32 @@
+.hero {
+  padding: 100px 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("../../../assets/images/hero-bcg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  color: var(--text-color-accent);
+  text-align: center;
+}
+.hero__title{
+  max-width: 1000px;
+}
+.hero__subtitle{
+  max-width: 550px;
+  margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+.hero__subtitle{
+  margin-bottom: 0px;
+}
+}
+@media (max-width: 576px) {
+.hero {
+  padding: 80px 0;
+}
+}

@@ -90,3 +90,9 @@ label {
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  src: url("/assets/fonts/Montserrat-Bold.woff2") format("woff2");
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
