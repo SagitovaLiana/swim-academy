@@ -5,7 +5,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
   gap: 80px;
 }
 
@@ -18,11 +17,6 @@
   filter: brightness(0.9);
 }
 
-.about__wave {
-  position: absolute;
-  left: 450px;
-  top: -65px;
-}
 .about__text {
   display: flex;
   flex-direction: column;
