@@ -1,0 +1,67 @@
+.faq {
+  padding: 100px;
+}
+.faq__title {
+  margin-bottom: 50px;
+}
+.faq__accordion {
+  border: solid 1.5px var(--background-color-complementary);
+  border-bottom: none;
+}
+.faq__accordion:last-child {
+  border-bottom: solid 1.5px var(--background-color-complementary);
+}
+.faq__accordion-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 50px;
+  cursor: pointer;
+}
+.faq__accordion-icon {
+  position: relative;
+  padding-right: 60px;
+}
+.faq__accordion-icon::before {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10 17L16 22L22 17' stroke='%23121568' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 0.7s ease;
+}
+.faq__accordion[open] .faq__accordion-icon::before {
+  transform: rotate(180deg);
+}
+.faq__accordion-text {
+  padding: 0 20px 20px 20px;
+}
+.faq__accordion-text a {
+  color: var(--text-color-2);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.faq__accordion-text a:hover {
+  color: var(--text-color-1);
+}
+@media (max-width: 992px) {
+  .faq {
+  padding: 60px 0;
+}
+}
+@media (max-width: 576px) {
+.faq__accordion-control {
+    padding: 12px;
+}
+.faq__accordion-icon::before {
+    right: 0px;
+}
+}

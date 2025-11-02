@@ -1,7 +1,7 @@
 :root {
   --background-color-light: #ffffff;
   --background-color-complementary: #edeae8;
-  --background-color-dark:#0d103d;
+  --background-color-dark: #0d103d;
   --brand-color-2: #f34213;
   --brand-color-1: #121568;
   --text-color-1: #121568;
@@ -14,7 +14,6 @@
   font-weight: 700;
   line-height: 120%;
 }
-
 .title-h2 {
   font-size: 50px;
   font-weight: 700;
@@ -30,6 +29,11 @@
   font-weight: 400;
   line-height: 70%;
 }
+.text-small {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 150%;
+}
 .text-default {
   font-size: 17px;
   font-weight: 400;
@@ -44,13 +48,12 @@
   .title-h1 {
     font-size: 75px;
   }
-
   .title-h2 {
     font-size: 48px;
   }
   .title-h3 {
-  font-size: 25px;
-}
+    font-size: 25px;
+  }
   .title-h4 {
     font-size: 25px;
     font-weight: 400;
@@ -58,6 +61,9 @@
   }
   .text-default {
     font-size: 15px;
+  }
+    .text-large {
+    font-size: 20px;
   }
 }
 @media (max-width: 768px) {
@@ -70,19 +76,16 @@
     line-height: 80%;
   }
   .title-h3 {
-  font-size: 20px;
-}
+    font-size: 20px;
+  }
   .title-h4 {
     font-size: 25px;
     font-weight: 400;
     line-height: 70%;
   }
-  .text-default {
-    font-size: 15px;
+  .text-large {
+    font-size: 18px;
   }
-    .text-large {
-  font-size: 20px;
-}
 }
 @media (max-width: 576px) {
   .title-h1 {
@@ -95,13 +98,12 @@
     line-height: 80%;
   }
   .title-h3 {
-  font-size: 18px;
-
-}
-  .title-h4 {
-
+    font-size: 18px;
   }
   .text-large {
-  font-size: 18px;
+    font-size: 15px;
+  }
+    .text-small {
+  font-size: 13px;
 }
 }

@@ -33,24 +33,25 @@
   align-items: center;
   justify-content: center;
 }
-.choose__card-desc{
-    line-height: 150%;
+.choose__card-desc {
+  display: inline-block;
+  min-height: 45px;
 }
 @media (max-width: 1440px) {
-.choose__cards {
-  gap: 130px;
-}
+  .choose__cards {
+    gap: 130px;
+  }
 }
 @media (max-width: 1200px) {
-.choose__cards {
-  gap: 46px;
-}
+  .choose__cards {
+    gap: 46px;
+  }
 }
 @media (max-width: 576px) {
   .choose {
     padding: 80px 0;
   }
   .choose__container {
-  gap: 40px;
-}
+    gap: 40px;
+  }
 }
