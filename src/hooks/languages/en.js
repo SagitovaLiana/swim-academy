@@ -37,5 +37,11 @@ faq_a_4_part2: "The other is in Berawa and is called",
 faq_a_4_part3: "You can pick the location that works best for you.",
 faq_q_5:"What should I bring to the lessons?",
 faq_a_5:"For your first lesson, the main essentials are just your swimwear and a towel. However, to make your experience even more comfortable, we also recommend bringing a few additional items: Waterproof Sunscreen: To protect your skin before and during your lesson. Bottle of Water: Staying hydrated is key! Flip-flops or Sandals: For convenience around the pool deck. A change of clothes and a plastic bag for your wet items. Don't worry about any swimming equipment like goggles or floats—we provide all the necessary training gear for your lessons. Just bring your positive attitude, and we'll ensure you have a fantastic and productive time in the water.",
+yo:"y.o.",
+liza: "Liza",
+liza_text: "Thank you for teaching me to swim with such precision, patience, and unwavering belief in me. And not just to swim—but to relax in the water, feel confident and calm, and truly enjoy the process. And even to dive! 😂You’re the best!",
+dimitri:"Dimitri",
+dimitri_text:"Hello, Oleg! I just want to say thank you—for everything you do and everything you’ve already done. In four days, I’ll turn 40, and I’ve realized that I’ve already given myself the greatest gift in life. From being completely non-athletic, I’ve started a journey of transformation to live a completely different life over the next 10 years. And a huge part of this is thanks to you—actually, I’d say an enormous part. It’s such an incredible feeling to learn something new.",
+what_people_say: "What people say",
 
 }; 

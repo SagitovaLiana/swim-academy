@@ -6,6 +6,7 @@ import Choose from "./home/choose/Choose";
 import Programs from "./home/programs/programs";
 import Gallery from "./home/gallery/gallery";
 import Faq from "./home/faq/Faq";
+import Testimonial from "./home/testimonial/Testimonial";
 
 const HomePage = () => {
   // const { t } = useLanguage();
@@ -18,6 +19,7 @@ const HomePage = () => {
       <Programs/>
       <Gallery/>
       <Faq/>
+      <Testimonial/>
     </div>
   );
 };
