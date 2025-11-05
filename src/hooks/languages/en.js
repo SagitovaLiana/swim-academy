@@ -43,5 +43,6 @@ liza_text: "Thank you for teaching me to swim with such precision, patience, and
 dimitri:"Dimitri",
 dimitri_text:"Hello, Oleg! I just want to say thank you—for everything you do and everything you’ve already done. In four days, I’ll turn 40, and I’ve realized that I’ve already given myself the greatest gift in life. From being completely non-athletic, I’ve started a journey of transformation to live a completely different life over the next 10 years. And a huge part of this is thanks to you—actually, I’d say an enormous part. It’s such an incredible feeling to learn something new.",
 what_people_say: "What people say",
+all_rights_reserved:"All rights reserved.",
 
 }; 

@@ -1,0 +1,38 @@
+.footer {
+  padding: 50px 0;
+  background-color: var(--background-color-complementary);
+  border-top: 1px solid var(--background-color-light);
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.footer__address {
+  font-style: normal;
+}
+.footer__academy-number {
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+   color: inherit;
+
+}
+.footer__academy-number:hover {
+  color: var(--text-color-1);
+}
+.footer__academy-number:hover {
+  color: var(--text-color-2);
+}
+.footer__rights {
+  max-width: 280px;
+  text-align: right;
+}
+@media (max-width: 768px) {
+ .footer__container {
+  flex-direction: column;
+}
+.footer__rights {
+  max-width: none;
+  text-align: left;
+}
+}
