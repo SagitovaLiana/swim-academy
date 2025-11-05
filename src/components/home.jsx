@@ -1,27 +1,27 @@
 // import { useLanguage } from '../hooks/useLanguage';
 
-import Hero from "./home/hero/hero";
+import Hero from "./home/hero/HeroHome";
 import About from "./home/about/about";
 import Choose from "./home/choose/Choose";
 import Programs from "./home/programs/programs";
-import Gallery from "./home/gallery/gallery";
+import HomeGallery from "./home/gallery/HomeGallery";
 import Faq from "./home/faq/Faq";
 import Testimonial from "./home/testimonial/Testimonial";
 
-const HomePage = () => {
+const Home = () => {
   // const { t } = useLanguage();
 
   return (
-    <div className="home-page">
+    <main className="main">
       < Hero />
       < About/>
       <Choose/>
       <Programs/>
-      <Gallery/>
+      <HomeGallery/>
       <Faq/>
       <Testimonial/>
-    </div>
+    </main>
   );
 };
 
-export default HomePage;
+export default Home;

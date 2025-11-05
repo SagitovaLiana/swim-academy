@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useLanguage } from "../../hooks/useLanguage";
 import logoIcon from "../../assets/images/We Will Swim.svg";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -14,27 +15,40 @@ const Header = () => {
   return (
     <header className="header">
       <div className="container header__container">
-        <a href="/" className="header__logo">
+        <NavLink to="/" className="header__logo">
           <img src={logoIcon} alt="Logo" />
-        </a>
-        <div className={ 
-          `header__right ${isOpen?"header__right--active":""}`}>
+        </NavLink>
+
+        <div
+          className={`header__right ${isOpen ? "header__right--active" : ""}`}
+        >
           <nav className="header__nav nav">
             <ul className="nav__list">
               <li className="nav__item">
-                <a href="/" className="nav__link">
+                <NavLink to="/" className="nav__link">
                   {t("home")}
-                </a>
+                </NavLink>
+
+                {/* <a href="/" className="nav__link">
+                  {t("home")}
+                </a> */}
               </li>
               <li className="nav__item">
-                <a href="#!" className="nav__link">
+                <NavLink to="/programs" className="nav__link">
                   {t("programs")}
-                </a>
+                </NavLink>
+
+                {/* <a href="#!" className="nav__link">
+                  {t("programs")}
+                </a> */}
               </li>
               <li className="nav__item">
-                <a href="#!" className="nav__link">
+                <NavLink to="/gallery" className="nav__link">
                   {t("gallery")}
-                </a>
+                </NavLink>
+                {/* <a href="#!" className="nav__link">
+                  {t("gallery")}
+                </a> */}
               </li>
             </ul>
           </nav>
@@ -51,8 +65,10 @@ const Header = () => {
             </button>
           </div>
         </div>
-                  <button 
-          className={`header__menu-button ${isOpen ? "header__menu-button--active" : ""}`}
+        <button
+          className={`header__menu-button ${
+            isOpen ? "header__menu-button--active" : ""
+          }`}
           onClick={() => setOpen(!isOpen)}
           aria-label={isOpen ? "Закрыть меню" : "Открыть меню"}
         >

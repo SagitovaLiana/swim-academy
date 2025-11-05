@@ -1,0 +1,50 @@
+[
+  {
+    "thumb": "/images/gallery/thumbs/image1.webp",
+    "full": "/images/gallery/full/image1.jpg"
+  },
+  {
+    "thumb": "/images/gallery/thumbs/image10.webp",
+    "full": "/images/gallery/full/image10.jpg"
+  },
+  {
+    "thumb": "/images/gallery/thumbs/image11.webp",
+    "full": "/images/gallery/full/image11.jpg"
+  },
+  {
+    "thumb": "/images/gallery/thumbs/image12.webp",
+    "full": "/images/gallery/full/image12.jpg"
+  },
+  {
+    "thumb": "/images/gallery/thumbs/image2.webp",
+    "full": "/images/gallery/full/image2.jpg"
+  },
+  {
+    "thumb": "/images/gallery/thumbs/image3.webp",
+    "full": "/images/gallery/full/image3.jpg"
+  },
+  {
+    "thumb": "/images/gallery/thumbs/image4.webp",
+    "full": "/images/gallery/full/image4.jpg"
+  },
+  {
+    "thumb": "/images/gallery/thumbs/image5.webp",
+    "full": "/images/gallery/full/image5.jpg"
+  },
+  {
+    "thumb": "/images/gallery/thumbs/image6.webp",
+    "full": "/images/gallery/full/image6.jpg"
+  },
+  {
+    "thumb": "/images/gallery/thumbs/image7.webp",
+    "full": "/images/gallery/full/image7.jpg"
+  },
+  {
+    "thumb": "/images/gallery/thumbs/image8.webp",
+    "full": "/images/gallery/full/image8.jpg"
+  },
+  {
+    "thumb": "/images/gallery/thumbs/image9.webp",
+    "full": "/images/gallery/full/image9.jpg"
+  }
+]

@@ -1,0 +1,9 @@
+.gallery{
+  padding: 40px 0 50px;
+  background-color: var(--background-color-dark);
+}
+@media (max-width: 768px) {
+  .gallery{
+    display: none;
+  }
+}
