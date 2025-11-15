@@ -18,7 +18,6 @@ const Header = () => {
         <NavLink to="/" className="header__logo">
           <img src={logoIcon} alt="Logo" />
         </NavLink>
-
         <div
           className={`header__right ${isOpen ? "header__right--active" : ""}`}
         >
@@ -28,27 +27,61 @@ const Header = () => {
                 <NavLink to="/" className="nav__link">
                   {t("home")}
                 </NavLink>
-
-                {/* <a href="/" className="nav__link">
-                  {t("home")}
-                </a> */}
               </li>
-              <li className="nav__item">
-                <NavLink to="/programs" className="nav__link">
-                  {t("programs")}
-                </NavLink>
 
-                {/* <a href="#!" className="nav__link">
+              <li className="nav__item nav__item--dropdown">
+                <button className="nav__link nav__link--dropdown">
                   {t("programs")}
-                </a> */}
+                </button>
+
+                <ul className="nav__dropdown">
+                  <li>
+                    <NavLink
+                      to="/programs/mini-groups/MiniGroups"
+                      className="nav__dropdown-link text-small"
+                    >
+                      {t("mini_groups")}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/programs/personal-lessons/PersonalLessons"
+                      className="nav__dropdown-link text-small"
+                    >
+                      {t("personal_lessons")}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/programs/camp-in-amed/CampInAmed"
+                      className="nav__dropdown-link text-small"
+                    >
+                      {t("camp_in_amed")}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/programs/childrens-group/ChildrensGroup"
+                      className="nav__dropdown-link text-small"
+                    >
+                      {t("childrens_group")}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      to="/programs/interisland-swim/InterislandSwim"
+                      className="nav__dropdown-link text-small"
+                    >
+                      {t("interisland_swim")}
+                    </NavLink>
+                  </li>
+                </ul>
               </li>
+
               <li className="nav__item">
                 <NavLink to="/gallery" className="nav__link">
                   {t("gallery")}
                 </NavLink>
-                {/* <a href="#!" className="nav__link">
-                  {t("gallery")}
-                </a> */}
               </li>
             </ul>
           </nav>

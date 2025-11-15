@@ -1,0 +1,23 @@
+.programs {
+  padding: 100px 0;
+}
+.programs__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+.programs__title{
+  margin-bottom: 70px;
+}
+@media (max-width: 576px) {
+.programs {
+  padding: 80px 0;
+}
+.programs__container {
+    gap: 30px;
+}
+.programs__title{
+  margin-bottom: 50px;
+}
+}
