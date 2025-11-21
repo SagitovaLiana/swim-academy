@@ -23,7 +23,7 @@ const HomePrograms = () => {
       img: aboutImg,
       title: t("camp_in_amed"),
       desc: t("camp_in_amed_desc"),
-      link: "/programs/camp-in-amed/CampInAmed",
+      link: "/CampInAmed",
     },
     {
       img: aboutImg,
@@ -42,7 +42,7 @@ const HomePrograms = () => {
   return (
     <section className="programs">
       <div className="container">
-        <h1 className="programs__title title-h2">{t("programs")}</h1>
+        <h1 className="programs__title title-h2 title-margin">{t("programs")}</h1>
         <div className="programs__container">
           {programs.map((item, index) => (
             <ProgramCards key={index} {...item} />

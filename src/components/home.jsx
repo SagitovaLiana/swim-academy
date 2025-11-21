@@ -3,7 +3,7 @@ import About from "./home/about/about";
 import Choose from "./home/choose/Choose";
 import HomePrograms from "./home/programs/HomePrograms";
 import HomeGallery from "./home/gallery/HomeGallery";
-import Faq from "./home/faq/Faq";
+import HomeFaq from "./home/faq/HomeFaq";
 import Testimonial from "./home/testimonial/Testimonial";
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
       <Choose/>
       <HomePrograms/>
       <HomeGallery/>
-      <Faq/>
+      <HomeFaq/>
       <Testimonial/>
     </main>
   );

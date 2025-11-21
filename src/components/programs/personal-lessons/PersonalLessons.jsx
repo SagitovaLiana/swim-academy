@@ -1,5 +1,5 @@
-import InfoWithImg from "../../ui/InfoWithImg/InfoWithImg";
-import aboutImg from "../../../assets/images/about-img4.jpg";
+// import InfoWithImg from "../../ui/InfoWithImg/InfoWithImg";
+// import aboutImg from "../../../assets/images/about-img4.jpg";
 import { useLanguage } from "../../../hooks/useLanguage";
 import Hero from "../../../components/ui/Hero/Hero";
 import "./PersonalLessons.css";
@@ -32,7 +32,7 @@ const PersonalLessons = () => {
     </main>
       <section className="personal">
         <div className="container">
-          <InfoWithImg
+          {/* <InfoWithImg
             title="Персональные тренировки: Ваш уникальный путь к воде"
             text="Программа, созданная исключительно для вас. Если вы ищете
                 максимально быстрый и эффективный результат, персональные тренировки
@@ -43,7 +43,7 @@ const PersonalLessons = () => {
             imgSrc={aboutImg}
             imgAlt="Персональные тренировки по плаванию"
             reverse
-          />
+          /> */}
           <h3 className="personal__title title-h2">
             Какие цели мы помогаем достичь:
           </h3>

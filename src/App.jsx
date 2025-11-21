@@ -4,7 +4,7 @@ import { Header, Footer } from "./components/index";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MiniGroups from "./components/programs/mini-groups/MiniGroups";
 import PersonalLessons from "./components/programs/personal-lessons/PersonalLessons";
-import CampInAmed from "./components/programs/camp-in-amed/CampInAmed";
+import CampInAmed from "./components/CampInAmed";
 import ChildrensGroup from "./components/programs/childrens-group/ChildrensGroup";
 import InterislandSwim from "./components/programs/interisland-swim/InterislandSwim";
 
@@ -21,7 +21,7 @@ export default function App() {
             path="/programs/personal-lessons/PersonalLessons"
             element={<PersonalLessons />}
           />
-          <Route path="/programs/camp-in-amed/CampInAmed" element={<CampInAmed />} />
+          <Route path="/CampInAmed" element={<CampInAmed />} />
           <Route path="/programs/childrens-group/ChildrensGroup" element={<ChildrensGroup />} />
           <Route
             path="/programs/interisland-swim/InterislandSwim"

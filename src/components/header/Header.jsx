@@ -53,7 +53,7 @@ const Header = () => {
                   </li>
                   <li>
                     <NavLink
-                      to="/programs/camp-in-amed/CampInAmed"
+                      to="/CampInAmed"
                       className="nav__dropdown-link text-small"
                     >
                       {t("camp_in_amed")}
